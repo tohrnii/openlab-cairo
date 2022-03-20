@@ -7,3 +7,4 @@ fastecdsa
 sympy
 cairo-lang
 pytest
+cairo-nile
