@@ -12,6 +12,7 @@ RUN pip3 install -r /usr/src/app/requirements.txt
 # we put the copying of the complete repo to the end of the container to use the docker cache effectively
 COPY . /usr/src/app
 WORKDIR /usr/src/app
-RUN (cd cairo && make build)
+RUN pip3 install cairo-nile
+# RUN (cd cairo && make build)
 # RUN (cd cairo && make test)
 CMD ["bash"]
