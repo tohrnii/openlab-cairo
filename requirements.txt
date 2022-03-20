@@ -2,8 +2,8 @@ multidict
 Cython
 numpy
 biopython
-ecdsa 
-fastecdsa 
+ecdsa
+fastecdsa
 sympy
 cairo-lang
 pytest
