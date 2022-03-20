@@ -9,5 +9,6 @@ This poc has a series of reverse complement calculation jobs for demonstration.
 Make sure  [cairo](https://www.cairo-lang.org/docs/quickstart.html), [open zeppelin nile](https://github.com/OpenZeppelin/nile) and [pytest](https://docs.pytest.org/en/7.1.x/getting-started.html) are installed. Generally, we recommend building a container with all dependencies. 
 
 ```
-docker build openlab-cairo
+docker pull ghcr.io/labdao/openlab-cairo:main
+docker run ghcr.io/labdao/openlab-cairo:main
 ```
