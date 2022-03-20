@@ -1,7 +1,1 @@
 multidict
-biopython
-ecdsa 
-fastecdsa 
-sympy
-cairo-lang
-pytest
