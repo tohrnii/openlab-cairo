@@ -10,5 +10,5 @@ Make sure  [cairo](https://www.cairo-lang.org/docs/quickstart.html), [open zeppe
 
 ```
 docker pull ghcr.io/labdao/openlab-cairo:main
-docker run ghcr.io/labdao/openlab-cairo:main
+docker run -it ghcr.io/labdao/openlab-cairo:main
 ```
