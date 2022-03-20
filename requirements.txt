@@ -1,9 +1,9 @@
 multidict
+Cython
 numpy
-cython
-biopython
-ecdsa 
-fastecdsa 
-sympy
-cairo-lang
-pytest
+#biopython
+#ecdsa 
+#fastecdsa 
+#sympy
+#cairo-lang
+#pytest
