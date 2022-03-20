@@ -1,5 +1,5 @@
-biopython
 multidict
+biopython
 ecdsa 
 fastecdsa 
 sympy
