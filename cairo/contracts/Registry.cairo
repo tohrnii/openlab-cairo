@@ -227,16 +227,3 @@ func set_job_status{
     )
     return ()
 end
-
-# func _transfer {
-#         syscall_ptr : felt*,
-#         pedersen_ptr : HashBuiltin*,
-#         range_check_ptr
-#     }(
-#         token: felt,
-#         sender: felt,
-#         recipient: felt,
-#         amount: Uint256
-#     ):
-# end
-#test function
