@@ -8,7 +8,7 @@ RUN apt-get install -y python3.7 python3-pip
 # we first copy the requirements file only, to use the docker cache effectively
 COPY ./requirements.txt /usr/src/app/requirements.txt
 # install the dependencies
-RUN pip install -r /usr/src/app/requirements.txt 
+RUN pip3 install -r /usr/src/app/requirements.txt 
 # we put the copying of the complete repo to the end of the container to use the docker cache effectively
 COPY . /usr/src/app
 WORKDIR /usr/src/app
