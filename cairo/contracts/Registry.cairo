@@ -172,7 +172,7 @@ func mark_job_as_failed{
     # assert_lt(job.deadline, job.deadline)
     set_job_status(job_id, 5)
     let (this_contract) = get_contract_address()
-    IERC20.transferFrom(contract_address=job.payment_token, sender=this_contract, recipient=job.user, amount=job.payment_value) #transfer token to service provider
+    IERC20.transfer(contract_address=job.payment_token, recipient=job.user, amount=job.payment_value) #transfer token to user
     return ()
 end
 
