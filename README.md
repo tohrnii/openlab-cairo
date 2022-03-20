@@ -8,7 +8,7 @@ This poc has a series of reverse complement calculation jobs for demonstration.
 ## getting started 
 * make sure [open zeppelin nile](https://github.com/OpenZeppelin/nile) and [pytest](https://docs.pytest.org/en/7.1.x/getting-started.html) are installed.
 
-‘‘‘
+```
 pip3 install cairo-nile
 pip3 install -U pytest
-‘‘‘
+```
