@@ -14,7 +14,6 @@ RUN python3.7 -m pip install -r /usr/src/app/requirements.txt
 COPY . /usr/src/app
 WORKDIR /usr/src/app
 # TODO #3 install cairo-nile and run
-RUN python3.7 -m pip install cairo-nile
 # RUN (cd cairo && make build)
 # RUN (cd cairo && make test)
 CMD ["bash"]
