@@ -6,7 +6,7 @@ Users can submit a series of jobs in a pipeline. Each job has a payment attached
 This poc has a series of reverse complement calculation jobs for demonstration.
 
 ## getting started 
-* make sure [open zeppelin nile](https://github.com/OpenZeppelin/nile) and [pytest](https://docs.pytest.org/en/7.1.x/getting-started.html) are installed.
+Make sure  [cairo](https://www.cairo-lang.org/docs/quickstart.html), [open zeppelin nile](https://github.com/OpenZeppelin/nile) and [pytest](https://docs.pytest.org/en/7.1.x/getting-started.html) are installed. Generally, we recommend using a virtual environment or container for higher reproducibility.
 
 ```
 pip3 install cairo-nile
