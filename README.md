@@ -14,4 +14,4 @@ docker run -it ghcr.io/labdao/openlab-cairo:main
 ```
 
 ## interacting with contracts
-Contract Address (goerli): 0x0496675e174843a45b2b35ee71ce8601e16c9c020e077286845d7fa7d826408f
+Contract Address (goerli): 0x0496675e174843a45b2b35ee71ce8601e16c9c020e077286845d7fa7d826408f | [Explorer](https://goerli.voyager.online/contract/0x0496675e174843a45b2b35ee71ce8601e16c9c020e077286845d7fa7d826408f)
