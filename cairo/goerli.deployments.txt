@@ -1,0 +1,1 @@
+0x0496675e174843a45b2b35ee71ce8601e16c9c020e077286845d7fa7d826408f:artifacts/abis/Registry.json:registry_contract
