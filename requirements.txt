@@ -8,3 +8,5 @@ sympy
 cairo-lang
 pytest
 cairo-nile
+inquirer
+pyfiglet
