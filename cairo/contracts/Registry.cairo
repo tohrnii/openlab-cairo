@@ -69,7 +69,7 @@ func add_job{
         assert parent_job.status = 4
 
         jobs.write(
-            parent_job_id, 
+            parent_job_id,
             Job(
                 user = parent_job.user,
                 payment_token = parent_job.payment_token,
@@ -86,19 +86,21 @@ func add_job{
         )
         tempvar syscall_ptr = syscall_ptr
         tempvar pedersen_ptr = pedersen_ptr
+        tempvar range_check_ptr = range_check_ptr
         tempvar _status = _status
     else:
         let _status = 2
         assert parent_job_id = 0
         tempvar syscall_ptr = syscall_ptr
         tempvar pedersen_ptr = pedersen_ptr
+        tempvar range_check_ptr = range_check_ptr
         tempvar _status = _status
     end
     jobs.write(
         total_jobs+1,
         Job(
             user = caller,
-            payment_token = payment_token, 
+            payment_token = payment_token,
             payment_value = payment_value,
             status = _status,
             parent_job_id = parent_job_id,
@@ -210,7 +212,7 @@ func set_job_status{
     ):
     let (job) = jobs.read(job_id)
     jobs.write(
-        job_id, 
+        job_id,
         Job(
             user = job.user,
             payment_token = job.payment_token,

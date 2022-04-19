@@ -13,7 +13,6 @@ RUN python3.7 -m pip install -r /usr/src/app/requirements.txt
 # we put the copying of the complete repo to the end of the container to use the docker cache effectively
 COPY . /usr/src/app
 WORKDIR /usr/src/app
-# TODO #3 install cairo-nile and run
-# RUN (cd cairo && make build)
-# RUN (cd cairo && make test)
+RUN (cd cairo && make build)
+RUN (cd cairo && make test)
 CMD ["bash"]
